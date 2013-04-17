@@ -209,3 +209,8 @@ function round(a){
 	answer = Math.round(a);
 	return answer;
 }
+
+function sqrt(a){
+	answer = Math.sqrt(a);
+	return answer;
+}
