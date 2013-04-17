@@ -174,3 +174,8 @@ function floor(a){
 	answer = Math.floor(a);
 	return answer;
 }
+
+function log(a){
+	answer = Math.log(a);
+	return answer;
+}
