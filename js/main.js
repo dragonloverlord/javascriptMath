@@ -199,3 +199,8 @@ function random100(){
 	answer = Math.floor((Math.random()*10)+10);
 	return answer;
 }
+
+function random1000(){
+	answer = Math.floor((Math.random()*10)+100);
+	return answer;
+}
