@@ -169,3 +169,8 @@ function exp(a){
 	answer = Math.exp(a);
 	return answer;
 }
+
+function floor(a){
+	answer = Math.floor(a);
+	return answer;
+}
