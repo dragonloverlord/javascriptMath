@@ -159,3 +159,7 @@ function atan2(a,b){
 	answer = Math.atan2(a,b);
 	return answer;
 }
+
+function ceil(a){
+	answer = Math.ceil(a);
+}
