@@ -179,3 +179,8 @@ function log(a){
 	answer = Math.log(a);
 	return answer;
 }
+
+function pow(a,b){
+	answer = Math.pow(a,b);
+	return answer;
+}
