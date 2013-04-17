@@ -162,4 +162,10 @@ function atan2(a,b){
 
 function ceil(a){
 	answer = Math.ceil(a);
+	return answer;
+}
+
+function exp(a){
+	answer = Math.exp(a);
+	return answer;
 }
