@@ -184,3 +184,8 @@ function pow(a,b){
 	answer = Math.pow(a,b);
 	return answer;
 }
+
+function random(){
+	answer = Math.random();
+	return answer;
+}
