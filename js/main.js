@@ -189,3 +189,8 @@ function random(){
 	answer = Math.random();
 	return answer;
 }
+
+function random10(){
+	answer = Math.floor((Math.random()*10)+1);
+	return answer;
+}
