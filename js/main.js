@@ -194,3 +194,8 @@ function random10(){
 	answer = Math.floor((Math.random()*10)+1);
 	return answer;
 }
+
+function random100(){
+	answer = Math.floor((Math.random()*10)+10);
+	return answer;
+}
