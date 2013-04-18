@@ -244,3 +244,8 @@ function cube(a){
 	answer = Math.pow(a,3);
 	return answer;
 }
+
+function zero(a){
+	answer = a * 0;
+	return answer;
+}
