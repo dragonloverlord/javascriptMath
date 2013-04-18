@@ -226,3 +226,10 @@ function pointSlopeForm(a,b,c){
 	answer = answerA + c;
 	return answer;
 }
+
+function standardForm(a,b,c,d){
+	answerA = a * b;
+	answerB = c * d;
+	answer = answerA + answerB;
+	return answer;
+}
