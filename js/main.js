@@ -16,7 +16,7 @@ function pothagTherom(a,b,c){
 		answerB = Math.pow(b,2);
 		answerD = answerA + answerB;
 		answer = Math.sqrt(answerD);
-		console.log("x = " + answer);
+		return answer;
 	}else{
 		return "Syntax error";
 	}
@@ -231,5 +231,11 @@ function standardForm(a,b,c,d){
 	answerA = a * b;
 	answerB = c * d;
 	answer = answerA + answerB;
+	return answer;
+}
+
+function istiFormula(a,b,c){
+	answerA = a * b;
+	answer = Math.sqrt(answerA);
 	return answer;
 }
