@@ -220,3 +220,9 @@ function probabilityFormula(a,b){
 	answer = answerA * 100;
 	return answer;
 }
+
+function pointSlopeForm(a,b,c){
+	answerA = a * b;
+	answer = answerA + c;
+	return answer;
+}
