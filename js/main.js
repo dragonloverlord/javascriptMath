@@ -239,3 +239,8 @@ function istiFormula(a,b,c){
 	answer = Math.sqrt(answerA);
 	return answer;
 }
+
+function cube(a){
+	answer = Math.pow(a,3);
+	return answer;
+}
