@@ -214,3 +214,9 @@ function sqrt(a){
 	answer = Math.sqrt(a);
 	return answer;
 }
+
+function probabilityFormula(a,b){
+	answerA = a / b;
+	answer = answerA * 100;
+	return answer;
+}
