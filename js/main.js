@@ -316,16 +316,17 @@ function yearTday(a){
 }
 
 function dayTyear(a){
-	answer = a / 365;
-	return answer;
+	return a / 365;
 }
 
 function yearTmonth(a){
-	answer = a * 12;
-	return answer;
+	return a * 12;
 }
 
 function monthTyear(a){
-	answer = a / 12;
-	return answer;
+	return a / 12;
+}
+
+function dayTmin(a){
+	return a * 1440;
 }
