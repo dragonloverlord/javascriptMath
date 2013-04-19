@@ -126,45 +126,29 @@ function cos(a){
 }
 
 function tan(a){
-	answer = Math.tan(a);
-	return answer;
+	return Math.tan(a);
 }
-
 function sin(a){
-	answer = Math.sin(a);
-	return answer;
+	return Math.sin(a);
 }
-
 function abs(a){
-	answer = Math.abs(a);
-	return answer;
+	return Math.abs(a);
 }
-
 function acos(a){
-	answer = Math.acos(a);
-	return answer;
+	return Math.acos(a);
 }
-
 function asin(a){
-	answer = Math.asin(a);
-	return answer;
+	return Math.asin(a);
 }
-
 function atan(a){
-	answer = Math.atan(a);
-	return answer;
+	return Math.atan(a);
 }
-
 function atan2(a,b){
-	answer = Math.atan2(a,b);
-	return answer;
+	return Math.atan2(a,b);
 }
-
 function ceil(a){
-	answer = Math.ceil(a);
-	return answer;
+	return Math.ceil(a);
 }
-
 function exp(a){
 	return Math.exp(a);
 }
