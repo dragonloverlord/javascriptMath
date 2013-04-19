@@ -261,25 +261,17 @@ function monthTday(a){
 }
 
 function dayThour(a){
-	answer = a * 24;
-	return answer;
+	return a * 24;
 }
-
 function HourTday(a){
-	answer = a / 24;
-	return answer;
+	return a / 24;
 }
-
 function minThour(a){
-	answer = a / 60;
-	return answer;
+	return a / 60;
 }
-
 function hourTmin(a){
-	answer = a * 60;
-	return answer;
+	return a * 60;
 }
-
 function minTsec(a){
 	return a * 60;
 }
