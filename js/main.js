@@ -319,3 +319,13 @@ function dayTyear(a){
 	answer = a / 365;
 	return answer;
 }
+
+function yearTmonth(a){
+	answer = a * 12;
+	return answer;
+}
+
+function monthTyear(a){
+	answer = a / 12;
+	return answer;
+}
