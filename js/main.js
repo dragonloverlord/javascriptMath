@@ -235,31 +235,20 @@ function standardForm(a,b,c,d){
 }
 
 function istiFormula(a,b,c){
-	answerA = a * b;
-	answer = Math.sqrt(answerA);
-	return answer;
+	return Math.sqrt((a * b));
 }
-
 function cube(a){
-	answer = Math.pow(a,3);
-	return answer;
+	return Math.pow(a,3);
 }
-
 function zero(a){
-	answer = a * 0;
-	return answer;
+	return a * 0;
 }
-
 function dayTmonth(a){
-	answer = a / 31;
-	return answer;
+	return a / 31;
 }
-
 function monthTday(a){
-	answer = a * 31;
-	return answer;
+	return a * 31;
 }
-
 function dayThour(a){
 	return a * 24;
 }
