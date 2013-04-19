@@ -249,3 +249,23 @@ function zero(a){
 	answer = a * 0;
 	return answer;
 }
+
+function dayTmonth(a){
+	answer = a / 31;
+	return answer;
+}
+
+function monthTday(a){
+	answer = a * 31;
+	return answer;
+}
+
+function dayThour(a){
+	answer = a * 24;
+	return answer;
+}
+
+function HourTday(a){
+	answer = a / 24;
+	return answer;
+}
