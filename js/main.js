@@ -269,3 +269,13 @@ function HourTday(a){
 	answer = a / 24;
 	return answer;
 }
+
+function minThour(a){
+	answer = a / 60;
+	return answer;
+}
+
+function hourTmin(a){
+	answer = a * 60;
+	return answer;
+}
