@@ -301,32 +301,26 @@ function feetTinch(a){
 }
 
 function weekTday(a){
-	answer = a * 7;
-	return answer;
+	return a * 7;
 }
-
 function dayTweek(a){
-	answer = a / 7;
-	return answer;
+	return a / 7;
 }
-
 function yearTday(a){
-	answer = a * 365;
-	return answer;
+	return a * 365;
 }
-
 function dayTyear(a){
 	return a / 365;
 }
-
 function yearTmonth(a){
 	return a * 12;
 }
-
 function monthTyear(a){
 	return a / 12;
 }
-
 function dayTmin(a){
 	return a * 1440;
+}
+function minTday(a){
+	return a / 1440;
 }
