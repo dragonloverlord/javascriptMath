@@ -299,3 +299,13 @@ function feetTinch(a){
 	answer = a * 12;
 	return answer;
 }
+
+function weekTday(a){
+	answer = a * 7;
+	return answer;
+}
+
+function dayTweek(a){
+	answer = a / 7;
+	return answer;
+}
