@@ -309,3 +309,13 @@ function dayTweek(a){
 	answer = a / 7;
 	return answer;
 }
+
+function yearTday(a){
+	answer = a * 365;
+	return answer;
+}
+
+function dayTyear(a){
+	answer = a / 365;
+	return answer;
+}
