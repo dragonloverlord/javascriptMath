@@ -166,25 +166,17 @@ function ceil(a){
 }
 
 function exp(a){
-	answer = Math.exp(a);
-	return answer;
+	return Math.exp(a);
 }
-
 function floor(a){
-	answer = Math.floor(a);
-	return answer;
+	return Math.floor(a);
 }
-
 function log(a){
-	answer = Math.log(a);
-	return answer;
+	return Math.log(a);
 }
-
 function pow(a,b){
-	answer = Math.pow(a,b);
-	return answer;
+	return Math.pow(a,b);
 }
-
 function random(){
 	return Math.random();
 }
