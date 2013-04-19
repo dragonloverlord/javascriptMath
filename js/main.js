@@ -289,3 +289,13 @@ function secTmin(a){
 	answer = a / 60;
 	return answer;
 }
+
+function inchTfeet(a){
+	answer = a / 12;
+	return answer;
+}
+
+function feetTinch(a){
+	answer = a * 12;
+	return answer;
+}
