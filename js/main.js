@@ -279,3 +279,13 @@ function hourTmin(a){
 	answer = a * 60;
 	return answer;
 }
+
+function minTsec(a){
+	answer = a * 60;
+	return answer;
+}
+
+function secTmin(a){
+	answer = a / 60;
+	return answer;
+}
