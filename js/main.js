@@ -104,27 +104,14 @@ function surfaceAreaPrismPHB(p,h,b){
 }
 
 function surfaceAreaCylinderRH(r,h){
-	answerA = 2 * Math.PI;
-	answerB = r * h;
-	answerC = answerA * answerB;
-	answerD = Math.pow(r,2);
-	answerE = answerA * answerD;
-	answer = answerC + answerE;
-	return answer;
+	return ((2 * Math.PI)*(r * h))+((2 * Math.PI)*(Math.pow(r,2)));
 }
-
 function surfaceAreaPyramidPLB(p,l,b){
-	answerA = p * l;
-	answerB = answerA * 0.5;
-	answer = answerB + b;
-	return answer;
+	return ((p * l)* 0.5)+ b;
 }
-
 function cos(a){
-	answer = Math.cos(a);
-	return answer;
+	return Math.cos(a);
 }
-
 function tan(a){
 	return Math.tan(a);
 }
