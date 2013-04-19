@@ -222,18 +222,11 @@ function probabilityFormula(a,b){
 }
 
 function pointSlopeForm(a,b,c){
-	answerA = a * b;
-	answer = answerA + c;
-	return answer;
+	return (a * b) + c;
 }
-
 function standardForm(a,b,c,d){
-	answerA = a * b;
-	answerB = c * d;
-	answer = answerA + answerB;
-	return answer;
+	return (a * b) + (c * d);
 }
-
 function istiFormula(a,b,c){
 	return Math.sqrt((a * b));
 }
