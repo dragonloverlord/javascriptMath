@@ -281,25 +281,17 @@ function hourTmin(a){
 }
 
 function minTsec(a){
-	answer = a * 60;
-	return answer;
+	return a * 60;
 }
-
 function secTmin(a){
-	answer = a / 60;
-	return answer;
+	return a / 60;
 }
-
 function inchTfeet(a){
-	answer = a / 12;
-	return answer;
+	return a / 12;
 }
-
 function feetTinch(a){
-	answer = a * 12;
-	return answer;
+	return a * 12;
 }
-
 function weekTday(a){
 	return a * 7;
 }
