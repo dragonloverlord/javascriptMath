@@ -186,41 +186,26 @@ function pow(a,b){
 }
 
 function random(){
-	answer = Math.random();
-	return answer;
+	return Math.random();
 }
-
 function random10(){
-	answer = Math.floor((Math.random()*10)+1);
-	return answer;
+	return Math.floor((Math.random()*10)+1);
 }
-
 function random100(){
-	answer = Math.floor((Math.random()*10)+10);
-	return answer;
+	return Math.floor((Math.random()*10)+10);
 }
-
 function random1000(){
-	answer = Math.floor((Math.random()*10)+100);
-	return answer;
+	return Math.floor((Math.random()*10)+100);
 }
-
 function round(a){
-	answer = Math.round(a);
-	return answer;
+	return Math.round(a);
 }
-
 function sqrt(a){
-	answer = Math.sqrt(a);
-	return answer;
+	return Math.sqrt(a);
 }
-
 function probabilityFormula(a,b){
-	answerA = a / b;
-	answer = answerA * 100;
-	return answer;
+	return (a / b) * 100;
 }
-
 function pointSlopeForm(a,b,c){
 	return (a * b) + c;
 }
